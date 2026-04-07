@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameVault — Tu catálogo de videojuegos</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/atoms.css">
+  <link rel="stylesheet" href="css/molecules.css">
+  <link rel="stylesheet" href="css/organisms.css">
+</head>
+<body>
+
+  <!-- ▸ ORGANISMO: Navbar -->
+  <nav class="navbar">
+    <a href="#" class="navbar__logo">Game<span>Vault</span></a>
+    <ul class="navbar__links">
+      <li><a href="#">Catálogo</a></li>
+      <li><a href="#">Géneros</a></li>
+      <li><a href="#">Top Rated</a></li>
+    </ul>
+    <div class="search-bar">
+      <input class="search-bar__input" type="text" placeholder="Buscar juego...">
+      <button class="btn btn--primary">Buscar</button>
+    </div>
+  </nav>
+
+  <!-- ▸ ORGANISMO: Hero -->
+  <section class="hero">
+    <p class="hero__eyebrow">🎮 Tu catálogo definitivo</p>
+    <h1 class="hero__title">
+      Descubre los mejores<br>
+      <span class="highlight">videojuegos</span> de hoy
+    </h1>
+    <p class="hero__subtitle">
+      Explora, descubre y guarda tus favoritos.
+      Más de 500 títulos en todos los géneros.
+    </p>
+    <div class="hero__actions">
+      <button class="btn btn--primary">Explorar catálogo</button>
+      <button class="btn btn--outline">Top Rated</button>
+    </div>
+  </section>
+
+  <!-- ▸ ORGANISMO: Grid de juegos -->
+  <section class="games-section">
+    <div class="games-section__header">
+      <h2 class="section-title">Más populares</h2>
+      <button class="btn btn--outline">Ver todos</button>
+    </div>
+
+    <div class="games-grid">
+
+      <!-- ▸ MOLÉCULA: Tarjeta — Elden Ring -->
+      <div class="game-card">
+        <img class="game-cover"
+             src="https://picsum.photos/seed/elden/240/320"
+             alt="Elden Ring">
+        <div class="game-card__body">
+          <h3 class="game-card__title">Elden Ring</h3>
+          <div class="game-card__footer">
+            <span class="badge badge--rpg">RPG</span>
+            <div class="rating">
+              <span class="rating__stars">★★★★★</span>
+              <span class="rating__score">9.5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ▸ MOLÉCULA: Tarjeta — Hollow Knight: Silksong -->
+      <div class="game-card">
+        <img class="game-cover"
+             src="https://picsum.photos/seed/hollow/240/320"
+             alt="Hollow Knight: Silksong">
+        <div class="game-card__body">
+          <h3 class="game-card__title">Hollow Knight: Silksong</h3>
+          <div class="game-card__footer">
+            <span class="badge badge--aventura">Aventura</span>
+            <div class="rating">
+              <span class="rating__stars">★★★★★</span>
+              <span class="rating__score">9.8</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ▸ MOLÉCULA: Tarjeta — Baldur's Gate 3 -->
+      <div class="game-card">
+        <img class="game-cover"
+             src="https://picsum.photos/seed/baldur/240/320"
+             alt="Baldur's Gate 3">
+        <div class="game-card__body">
+          <h3 class="game-card__title">Baldur's Gate 3</h3>
+          <div class="game-card__footer">
+            <span class="badge badge--rpg">RPG</span>
+            <div class="rating">
+              <span class="rating__stars">★★★★★</span>
+              <span class="rating__score">9.7</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ▸ MOLÉCULA: Tarjeta — Cyberpunk 2077 -->
+      <div class="game-card">
+        <img class="game-cover"
+             src="https://picsum.photos/seed/cyberpunk/240/320"
+             alt="Cyberpunk 2077">
+        <div class="game-card__body">
+          <h3 class="game-card__title">Cyberpunk 2077</h3>
+          <div class="game-card__footer">
+            <span class="badge badge--accion">Acción</span>
+            <div class="rating">
+              <span class="rating__stars">★★★★☆</span>
+              <span class="rating__score">8.5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ▸ MOLÉCULA: Tarjeta — The Last of Us -->
+      <div class="game-card">
+        <img class="game-cover"
+             src="https://picsum.photos/seed/lastofus/240/320"
+             alt="The Last of Us">
+        <div class="game-card__body">
+          <h3 class="game-card__title">The Last of Us</h3>
+          <div class="game-card__footer">
+            <span class="badge badge--aventura">Aventura</span>
+            <div class="rating">
+              <span class="rating__stars">★★★★★</span>
+              <span class="rating__score">9.6</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ▸ MOLÉCULA: Tarjeta — Hades II -->
+      <div class="game-card">
+        <img class="game-cover"
+             src="https://picsum.photos/seed/hades2/240/320"
+             alt="Hades II">
+        <div class="game-card__body">
+          <h3 class="game-card__title">Hades II</h3>
+          <div class="game-card__footer">
+            <span class="badge badge--accion">Acción</span>
+            <div class="rating">
+              <span class="rating__stars">★★★★☆</span>
+              <span class="rating__score">8.9</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- fin .games-grid -->
+  </section>
+
+  <!-- ▸ ORGANISMO: Footer -->
+  <footer class="footer">
+    <p>GameVault &copy; 2025</p>
+    <p>Hecho con Atomic Design 🎮</p>
+  </footer>
+
+</body>
+</html>
