@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Personal - Iker Rodríguez Amaro</title>
+</head>
+<body>
+
+    <header>
+        <h1>Iker Rodríguez Amaro</h1>
+        <p><strong>Matrícula:</strong> A01712814 | <strong>Carrera:</strong> ITC</p>
+        <p>Tecnológico de Monterrey, Campus Querétaro</p>
+    </header>
+
+    <main>
+
+        <section id="presentacion">
+            <h2>Sobre Mí y Mis Aficiones</h2>
+            <p>Tengo 20 años y me apasiona el desarrollo de software, el hardware lso videojuegos y el anime.</p>
+            
+            <ol>
+                <li>Armado de PC (actualmente planeando un build con Ryzen 7 7800X3D).</li>
+                <li>Videojuegos de ritmo como Geometry Dash y osu!mania (aunque en realidad Geometry Dash no es juego de ritmo cmo tal).</li>
+                <li>Música electrónica y metal.</li>
+            </ol>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos Universitarios</h2>
+            <ul>
+                <li><strong>GuardiaApp:</strong> Aplicación móvil de seguridad desarrollada con React Native y Expo.</li>
+                <li><strong>Streaming ESP32:</strong> Transmisión de video entre dos placas ESP32-WROVER y ESP32-WROOM relacionado con el punto anterior.</li>
+                <li><strong>Diseño de estructura de intercomunicaciones:</strong> Diseño de un rediseño a la infraestcrutura de intercomunicaciones para la Cruz Roja Méxicana con sede en Querétaro.</li>
+                <li><strong>Analizador Léxico:</strong> Autómata finito para reconocer palabras élficas ficticias.</li>
+            </ul>
+        </section>
+
+        <section id="cuestionario">
+            <h2>Respuestas del Cuestionario</h2>
+            
+            <article>
+                <h3>1. ¿Cuál es la diferencia entre Internet y la World Wide Web?</h3>
+                <p>El <strong>Internet</strong> es la red física global de computadoras interconectadas. La <strong>World Wide Web (WWW)</strong> es un servicio que funciona sobre Internet para acceder a documentos mediante el protocolo HTTP.</p>
+            </article>
+
+            <article>
+                <h3>2. ¿Cuáles son las partes de un URL?</h3>
+                <p>Protocolo (ej. https://), Subdominio (ej. www.), Dominio (ej. sitio.com), Puerto (ej. :80), Ruta (/pagina.html), Parámetros (?id=1) y Fragmento (#seccion).</p>
+            </article>
+
+            <article>
+                <h3>3. ¿Cuál es el propósito de los métodos HTTP?</h3>
+                <ul>
+                    <li><strong>GET:</strong> Obtener información.</li>
+                    <li><strong>HEAD:</strong> Obtener solo los encabezados, sin el cuerpo.</li>
+                    <li><strong>POST:</strong> Enviar información nueva (como un formulario).</li>
+                    <li><strong>PUT:</strong> Reemplazar por completo un recurso.</li>
+                    <li><strong>PATCH:</strong> Modificar parcialmente un recurso.</li>
+                    <li><strong>DELETE:</strong> Eliminar un recurso.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>4. ¿Qué método HTTP se debe utilizar al enviar un formulario HTML? ¿Por qué?</h3>
+                <p>Se debe utilizar <strong>POST</strong>. Porque envía los datos (como una contraseña) de forma oculta en el cuerpo del mensaje, y no expuestos en la URL como lo hace GET.</p>
+            </article>
+
+            <article>
+                <h3>5. ¿Qué método HTTP se utiliza cuando se accede a una página a través de un URL?</h3>
+                <p>Se utiliza el método <strong>GET</strong>.</p>
+            </article>
+
+            <article>
+                <h3>6. Un servidor devuelve código 200. ¿Qué significa? ¿Ocurrió algún error?</h3>
+                <p>Significa "OK". La solicitud fue exitosa y no ocurrió ningún error.</p>
+            </article>
+
+            <article>
+                <h3>7. ¿Es responsabilidad del desarrollador corregir un error 404?</h3>
+                <p>El error 404 significa "No encontrado". Es responsabilidad del desarrollador <strong>solo si</strong> el error ocurre porque hay un enlace interno roto en su propio sitio. Si el usuario escribió mal la URL, no es su responsabilidad.</p>
+            </article>
+
+            <article>
+                <h3>8. ¿Es responsabilidad del desarrollador corregir un error 500?</h3>
+                <p><strong>Sí.</strong> Un error 500 (Internal Server Error) significa que el servidor o el código de la aplicación fallaron. Es una falla del sistema que debe repararse.</p>
+            </article>
+
+            <article>
+                <h3>9. ¿Qué significa que un atributo esté desaprobado (deprecated)? Ejemplos:</h3>
+                <p>Significa que la tecnología es obsoleta y ya no se recomienda su uso en HTML5. Ejemplos de HTML4 desaprobados son las etiquetas center, font, b (reemplazada por strong) o atributos como <code>bgcolor</code>.</p>
+            </article>
+
+            <article>
+                <h3>10. ¿Qué componentes de estructura y estilo tiene una tabla?</h3>
+                <p><strong>Estructura:</strong> table, thead, tbody, tr (filas), th (encabezados) y td (celdas).<br>
+                <strong>Estilo:</strong> En HTML5 puro el estilo no debe ir en las etiquetas; se debe utilizar CSS externo.</p>
+            </article>
+
+            <article>
+                <h3>11. ¿Cuáles son los principales controles de una forma HTML5?</h3>
+                <p>La etiqueta input (con tipos como text, number, email, radio, checkbox, submit), textarea, y select.</p>
+            </article>
+
+            <article>
+                <h3>12. ¿Cuál es el ciclo de vida y desarrollo de sistemas de información?</h3>
+                <p>El <strong>ciclo de vida</strong> es todo el tiempo que existe el sistema, desde que surge la necesidad hasta que es retirado. El <strong>ciclo de desarrollo</strong> son las fases específicas para crearlo: Planificación, Análisis, Diseño, Implementación, Pruebas y Despliegue.</p>
+            </article>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="/procesar.php" method="post"> <!-- Archivo 100% real no fake -->
+                <label for="nombreUsuario">Nombre:</label>
+                <input type="text" id="nombreUsuario" name="nombreUsuario" required>
+                
+                <br><br>
+                
+                <label for="correoUsuario">Correo Electrónico:</label>
+                <input type="email" id="correoUsuario" name="correoUsuario" required>
+                
+                <br><br>
+
+                <label for="edadUsuario">Edad:</label>
+                <input type="number" id="edadUsuario" name="edadUsuario" min="0" max="99" step="1" value="20">
+                
+                <br><br>
+
+                <p><em>(En realidad estos datos no se envían a ningún lado lol)</em></p>
+
+                <input type="submit" value="Enviar Datos">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p>Página creada por Iker Rodríguez Amaro - <a href="mailto:a01712814@tec.mx">a01712814@tec.mx</a></p>
+        <p>Editor HTML utilizado: 
+            <a href="https://code.visualstudio.com/" target="_blank" rel="nofollow" title="VS Code">Visual Studio Code</a>
+        </p>
+    </footer>
+
+</body>
+</html>

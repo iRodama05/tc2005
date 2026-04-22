@@ -1,0 +1,85 @@
+/* =============================================
+   GAMEVAULT — atoms.css
+   Elementos básicos e indivisibles
+   ============================================= */
+
+/* ── Átomo: Botón ── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 0.625rem 1.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.15s;
+}
+
+.btn--primary {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn--primary:hover {
+  background-color: var(--color-primary-h);
+  transform: translateY(-2px);
+}
+
+.btn--outline {
+  background-color: transparent;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.btn--outline:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+/* ── Átomo: Badge de género ── */
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Variantes por género */
+.badge--rpg        { background: #1e1b4b; color: #a5b4fc; }
+.badge--accion     { background: #450a0a; color: #fca5a5; }
+.badge--aventura   { background: #052e16; color: #6ee7b7; }
+.badge--estrategia { background: #1c1917; color: #fcd34d; }
+
+/* ── Átomo: Calificación ── */
+.rating {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.rating__stars {
+  color: var(--color-star);
+  font-size: 0.9rem;
+  letter-spacing: 0.03em;
+}
+
+.rating__score {
+  color: var(--color-muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* ── Átomo: Portada del juego ── */
+.game-cover {
+  width: 100%;
+  aspect-ratio: 3 / 4;       /* Mantiene proporción de portada */
+  object-fit: cover;          /* La imagen llena el espacio sin deformarse */
+  border-radius: 8px 8px 0 0; /* Solo esquinas superiores redondeadas */
+  display: block;
+}
