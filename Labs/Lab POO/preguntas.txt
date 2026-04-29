@@ -1,0 +1,11 @@
+### ¿Por qué validar con JavaScript?
+
+Validar con JavaScript antes de enviar los datos al servidor es una buena práctica, pero no por seguridad, sino por comodidad. Se hace para mejorar la experiencia del usuario; si alguien escribe mal su correo o deja un campo vacío, JS le avisa al instante sin tener que recargar la página entera. Además, así le ahorramos trabajo inútil al servidor filtrando los errores de dedo desde el principio.
+
+### ¿Cómo saltarse esta validación?
+
+Saltarse esto es súper fácil porque el código de JS corre directo en el navegador de la persona, y ahí el usuario tiene el control total. Alguien puede simplemente desactivar JavaScript en su navegador, modificar las reglas desde las herramientas de desarrollador (F12) o usar programas como Postman para mandarle los datos directamente al servidor, ignorando mi formulario web por completo.
+
+### Si es tan fácil de saltar, ¿por qué usarlo?
+
+Porque frontend y backend tienen responsabilidades distintas. Se usa JavaScript del lado del cliente para que la página sea rápida y amigable para los usuarios. Sin embargo, la verdadera seguridad siempre se coloca en el backend (el servidor). Como el servidor es el único entorno que realmente controlo, ahí es donde asumo que todo lo que llega puede estar modificado o tener intenciones maliciosas, y verifico los datos rigurosamente antes de meterlos a la base de datos. Básicamente, ocupo el frontend para la usabilidad y el backend para la seguridad real.
