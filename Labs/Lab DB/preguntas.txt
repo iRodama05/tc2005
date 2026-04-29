@@ -1,0 +1,20 @@
+¿Qué ventajas tiene escribir el código SQL únicamente en la capa del modelo?
+Centralizar el código SQL en el modelo mantiene la arquitectura limpia bajo el patrón MVC. Los controladores solo se encargan de la lógica y de las respuestas. Esto facilita el mantenimiento: si la base de datos cambia, solo se actualiza un archivo en lugar de buscar consultas dispersas por todo el código.
+
+¿Qué es SQL injection y cómo se puede prevenir?
+Una inyección SQL ocurre cuando un atacante inserta comandos maliciosos en los formularios para alterar la base de datos. Se previene usando exclusivamente consultas parametrizadas (o preparadas), lo cual separa de manera estricta las instrucciones SQL ejecutables de los datos ingresados por el usuario.
+
+¿Por qué esconder las credenciales de Supabase en un .env?
+Las credenciales se guardan en un .env para excluirlas del control de versiones (git). Si se hace commit de estas claves en el código fuente de un repositorio público, ocurren dos cosas: Bots pueden leerlas y robar las credenciales, o atacantes obtienen acceso total para borrar tablas o agotar la cuota de la API de Supabase, causando bloqueos del servicio o cobros altísimos.
+
+¿Qué problema resuelve el pool de conexiones?
+Crear y destruir conexiones a la base de datos por cada petición consume demasiado tiempo y recursos de red. Un pool resuelve esto manteniendo un grupo de conexiones activas en espera. Al llegar una solicitud, toma una prestada y luego la devuelve, evitando el colapso del servidor ante tráfico alto y mejorando drásticamente el rendimiento.
+
+Ejemplo de inyección y cómo el $1 la bloquea
+Query inseguro:
+const sql = "SELECT * FROM users WHERE email = '" + inputEmail + "'";
+
+Query parametrizado:
+pool.query("SELECT * FROM users WHERE email = $1", [inputEmail]);
+
+La parametrización bloquea ataques como ' OR 1=1 -- porque el motor de la base de datos procesa el valor de $1 estrictamente como texto literal. Al no interpretarlo como código ejecutable, es imposible que el atacante altere la estructura original de la consulta.
