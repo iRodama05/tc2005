@@ -1,0 +1,1 @@
+Además de Pug y EJS, existen varias alternativas populares para Node.js, cada una con características distintas como Handlebars, Mustache, Nunjucks, Marko o Eta
