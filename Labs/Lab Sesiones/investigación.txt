@@ -1,0 +1,5 @@
+# Inserción SQL:
+Básicamente, este ataque pasa cuando confío ciegamente en lo que el usuario escribe en un formulario y paso ese texto directo a la consulta de mi base de datos. Imagina que en un campo de inicio de sesión, en vez de poner su usuario, alguien teclea un pedazo de código SQL (como ' OR '1'='1). Si mi backend no filtra eso, la base de datos se confunde, lo lee como una instrucción real y puede terminar saltándose la seguridad, dándole acceso completo al atacante o escupiendo toda mi información confidencial.
+
+# ¿Cómo prevenirlo?
+Para prevenirlo, en lugar de armar las consultas a la base de datos pegando el texto directamente, se utiliza "consultas preparadas" o consultas parametrizadas. Al hacer esto, el servidor separa el código de los datos, obligando a la base de datos a tratar lo que escribió el usuario estrictamente como texto inofensivo, sin importar qué símbolos intente usar.
