@@ -1,0 +1,16 @@
+¿En qué consiste el control de acceso basado en roles?
+El Control de Acceso Basado en Roles (RBAC) asigna los permisos de seguridad según el puesto o "rol" de cada persona, en lugar de dárselos a cada individuo por separado. Si alguien cambia de área, solo se le asigna un rol nuevo. Esto actualiza todos sus permisos al instante, sin necesidad de configurarlos uno por uno.
+
+Sistema con RBAC: Plataformas en la nube (AWS o Azure)
+En estos sistemas se crean perfiles generales, como "Administrador" o "Auditor", y cada perfil incluye ciertos permisos.
+
+Ventajas: Facilita mucho administrar miles de cuentas. Agiliza dar de alta o baja a los empleados y reduce errores humanos en la seguridad.
+
+Desventajas: Requiere mucho tiempo de planeación al principio. Si la empresa tiene procesos muy únicos, se pueden crear demasiados roles diferentes y el sistema se vuelve confuso.
+
+Sistema sin RBAC: Carpetas compartidas tradicionales
+Aquí, el dueño de un archivo decide exactamente a qué personas específicas darles permiso de lectura o edición.
+
+Ventajas: Es un método muy flexible y fácil de usar en equipos pequeños. Permite un control muy exacto sobre cada documento.
+
+Desventajas: Es imposible de mantener en empresas grandes. Si un empleado renuncia, se debe buscar y quitar su acceso archivo por archivo, lo que suele dejar permisos olvidados y huecos de seguridad.
