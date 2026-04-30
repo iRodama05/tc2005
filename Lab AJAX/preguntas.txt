@@ -1,0 +1,8 @@
+¿Qué importancia tiene AJAX en el desarrollo de RIAs?
+AJAX es la tecnología que permite a una página web comunicarse con el servidor en segundo plano. Su importancia radica en que evita recargar toda la página con cada acción del usuario. Esto hace que las aplicaciones web sean mucho más rápidas y fluidas, logrando que se sientan como programas reales instalados en la computadora y no como simples documentos estáticos.
+
+¿Qué implicaciones de seguridad tiene y dónde se valida?
+Al usar AJAX, las rutas exactas a las que el sistema pide información quedan expuestas en el navegador, lo que facilita los intentos de ataques automatizados. Por esta razón, la validación de seguridad siempre debe realizarse del lado del servido.
+
+¿Qué es JSON?
+Es un formato de texto muy ligero y sencillo que sirve para estructurar y enviar datos de un lugar a otro.
