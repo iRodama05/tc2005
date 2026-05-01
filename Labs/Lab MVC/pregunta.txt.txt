@@ -1,0 +1,3 @@
+El estilo MVC (Modelo-Vista-Controlador) me gusta principalmente porque me permite separar la lógica de los datos de lo que el usuario ve. Al tener cada cosa en su lugar, el código es mucho más limpio y fácil de mantener.
+
+Por otro lado, la mayor desventaja que le veo es que, para proyectos chiquitos, se siente como meterle demasiada complejidad innecesaria. Al principio la curva de aprendizaje es algo pesada porque tienes que andar saltando entre archivos para entender cómo fluye una sola acción.
