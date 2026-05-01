@@ -1,0 +1,14 @@
+¿Qué elementos hay que configurar para un entorno de producción?
+Para un entorno de producción se requiere un servidor configurado con el entorno de ejecución adecuado, una base de datos aislada con respaldos automáticos y variables de entorno para ocultar datos sensibles. También es indispensable apuntar un dominio web personalizado hacia el servidor y configurar un proxy inverso con un certificado SSL para garantizar que la conexión sea segura
+
+¿Qué variables de entorno se tienen que crear en un proyecto?
+Las variables de entorno sirven para mantener la información confidencial fuera del código fuente. Las más comunes son las credenciales de acceso a la base de datos, las claves secretas utilizadas para cifrar sesiones o contraseñas, los tokens para conectarse a APIs de servicios externos y las configuraciones del propio servidor, como el puerto o el modo del entorno.
+
+Tipos de DNS y su explicación
+Los registros DNS funcionan como el directorio telefónico de internet. El registro A conecta el nombre del dominio con la dirección IP del servidor web. El registro CNAME sirve como un alias para redirigir un dominio hacia otro. El registro MX se encarga de dirigir los correos electrónicos al servidor adecuado. El registro TXT almacena texto útil para verificar la propiedad del dominio o prevenir spam. Finalmente, el registro NS indica qué servidores tienen la autoridad para administrar todos estos registros.
+
+¿Qué significa cambiar el registro NS a diferencia de los demás?
+Cambiar el registro NS delega el control total de la administración del dominio a una plataforma externa. Mientras que modificar un registro A o MX solo altera a dónde se dirige el tráfico web o el correo, cambiar el NS significa que a partir de ese momento cualquier ajuste DNS deberá gestionarse desde el panel del nuevo proveedor y ya no donde se compró el dominio inicialmente.
+
+Certificados SSL: Gratuitos vs De Pago
+Ambos certificados cifran la información con el mismo nivel de seguridad técnica. Los gratuitos son convenientes porque no tienen costo y se renuevan automáticamente, aunque solo validan el control sobre el dominio. Los de pago tienen un costo anual y requieren trámites manuales, pero ofrecen validación legal de la empresa y garantías económicas en caso de fallos. Hoy en día, un certificado de pago se recomienda casi exclusivamente para bancos o corporativos con regulaciones estrictas; para la gran mayoría de las aplicaciones, los gratuitos son más que suficientes.

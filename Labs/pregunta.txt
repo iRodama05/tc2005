@@ -1,0 +1,5 @@
+Magiclink:
+En lugar de requerir una contraseña tradicional, el sistema envía un enlace único y temporal (un magic link) o un código de un solo uso (OTP) al correo o teléfono del usuario. Al hacer clic o ingresar el código, el servidor valida el token y concede el acceso. Elimina la necesidad de memorizar contraseñas y previene problemas de contraseñas débiles o reutilizadas.
+
+Passkeys y WebAuthn
+Es un estándar moderno que permite iniciar sesión utilizando los métodos de seguridad del propio dispositivo. En lugar de credenciales escritas, se utiliza biometría (huella dactilar, reconocimiento facial como FaceID) o llaves de seguridad de hardware. Proporciona una seguridad extremadamente alta porque los datos criptográficos nunca abandonan el dispositivo, haciendo casi imposible el phishing.
