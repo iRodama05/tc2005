@@ -1,0 +1,3 @@
+Los cambios realizados fueron el alargar ligeramente el area de juego, esto por necesitada para el siguiente cambio que es que el aumento de velocidad es más lento, pero tiene un cap máximo superior de 1280, lo ue hace que el juego termine siendo más difícil.
+
+El motivo del alargamiento es que como el juego operará a mayor velocidad, para evitar frustración, se añade más area de juego para que haya mayor tiempo de reacción a los cuadros que caen.
