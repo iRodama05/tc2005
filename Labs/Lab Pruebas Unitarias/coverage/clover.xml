@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1778613560330" clover="3.2.0">
+  <project timestamp="1778613560331" name="All files">
+    <metrics statements="84" coveredstatements="51" conditionals="57" coveredconditionals="30" methods="12" coveredmethods="9" elements="153" coveredelements="90" complexity="0" loc="84" ncloc="84" packages="1" files="3" classes="3"/>
+    <file name="combate.js" path="C:\Users\ikerr\GitProyectos\Clases\tc2005b\Laboratorios\Periodo 2\Lab Pruebas Unitarias\src\combate.js">
+      <metrics statements="22" coveredstatements="6" conditionals="21" coveredconditionals="7" methods="3" coveredmethods="1"/>
+      <line num="18" count="6" type="cond" truecount="4" falsecount="0"/>
+      <line num="19" count="2" type="stmt"/>
+      <line num="21" count="4" type="cond" truecount="3" falsecount="1"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="24" count="4" type="stmt"/>
+      <line num="25" count="4" type="stmt"/>
+      <line num="35" count="0" type="stmt"/>
+      <line num="36" count="0" type="stmt"/>
+      <line num="37" count="0" type="stmt"/>
+      <line num="54" count="0" type="stmt"/>
+      <line num="55" count="0" type="stmt"/>
+      <line num="56" count="0" type="stmt"/>
+      <line num="58" count="0" type="cond" truecount="0" falsecount="3"/>
+      <line num="60" count="0" type="stmt"/>
+      <line num="61" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="64" count="0" type="stmt"/>
+      <line num="65" count="0" type="stmt"/>
+      <line num="68" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="71" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="72" count="0" type="stmt"/>
+      <line num="75" count="0" type="stmt"/>
+      <line num="83" count="1" type="stmt"/>
+    </file>
+    <file name="nivel.js" path="C:\Users\ikerr\GitProyectos\Clases\tc2005b\Laboratorios\Periodo 2\Lab Pruebas Unitarias\src\nivel.js">
+      <metrics statements="27" coveredstatements="15" conditionals="20" coveredconditionals="12" methods="2" coveredmethods="1"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="28" count="0" type="stmt"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="32" count="0" type="stmt"/>
+      <line num="52" count="5" type="cond" truecount="1" falsecount="1"/>
+      <line num="53" count="0" type="stmt"/>
+      <line num="55" count="5" type="cond" truecount="3" falsecount="1"/>
+      <line num="56" count="0" type="stmt"/>
+      <line num="59" count="5" type="stmt"/>
+      <line num="62" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="63" count="1" type="stmt"/>
+      <line num="64" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="65" count="1" type="stmt"/>
+      <line num="66" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="67" count="1" type="stmt"/>
+      <line num="68" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="69" count="1" type="stmt"/>
+      <line num="71" count="1" type="stmt"/>
+      <line num="74" count="5" type="stmt"/>
+      <line num="77" count="1" type="stmt"/>
+    </file>
+    <file name="personaje.js" path="C:\Users\ikerr\GitProyectos\Clases\tc2005b\Laboratorios\Periodo 2\Lab Pruebas Unitarias\src\personaje.js">
+      <metrics statements="35" coveredstatements="30" conditionals="16" coveredconditionals="11" methods="7" coveredmethods="7"/>
+      <line num="12" count="11" type="cond" truecount="3" falsecount="1"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="15" count="11" type="cond" truecount="1" falsecount="1"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="18" count="11" type="cond" truecount="3" falsecount="1"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="22" count="11" type="stmt"/>
+      <line num="23" count="11" type="stmt"/>
+      <line num="24" count="11" type="stmt"/>
+      <line num="25" count="11" type="stmt"/>
+      <line num="26" count="11" type="stmt"/>
+      <line num="27" count="11" type="stmt"/>
+      <line num="28" count="11" type="stmt"/>
+      <line num="38" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="41" count="7" type="stmt"/>
+      <line num="42" count="7" type="stmt"/>
+      <line num="51" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="52" count="0" type="stmt"/>
+      <line num="54" count="2" type="stmt"/>
+      <line num="55" count="2" type="stmt"/>
+      <line num="63" count="2" type="stmt"/>
+      <line num="72" count="3" type="stmt"/>
+      <line num="80" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="81" count="0" type="stmt"/>
+      <line num="83" count="1" type="stmt"/>
+      <line num="84" count="1" type="stmt"/>
+      <line num="85" count="1" type="stmt"/>
+      <line num="86" count="1" type="stmt"/>
+      <line num="98" count="2" type="stmt"/>
+      <line num="99" count="2" type="stmt"/>
+      <line num="100" count="2" type="stmt"/>
+      <line num="101" count="2" type="stmt"/>
+      <line num="102" count="2" type="stmt"/>
+      <line num="106" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>
